@@ -1,0 +1,14 @@
+/* src/index.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+}

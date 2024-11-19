@@ -1,0 +1,98 @@
+/* .quiz{
+    display: flex;
+    flex-direction: row;
+    background-color: #ec048c;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 10px;
+
+}
+
+.btn{
+    border-radius: 8px;
+    background-color: rgb(178, 224, 230);
+    cursor: pointer;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    border-color:azure;
+    font-size: 15px;
+}
+
+.img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+} */
+
+.quiz {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('../assets/ms.jpeg');;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+    border-radius: 8px;
+    background-color: rgb(202, 148, 174);
+    color: #ffffff;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff6f8c;
+    transform: scale(1.05);
+}
+
+.img {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 20px;
+    transition: transform 0.3s ease;
+    border: 4px solid #1d1c1c;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    margin-bottom: 20px;
+}
